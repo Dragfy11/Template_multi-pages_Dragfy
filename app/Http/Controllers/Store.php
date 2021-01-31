@@ -28,35 +28,15 @@ class Store extends Controller
                 "num"=>"(317) 585-8468"
             ],
             (object)[
-                (object)[
-                    "day"=>"Sunday",
-                    "hours"=>"Closed"
-                ],
-                (object)[
-                    "day"=>"Monday",
-                    "hours"=>"7:00 AM to 8:00 PM"
-                ],
-                (object)[
-                    "day"=>"Tuesday",
-                    "hours"=>"7:00 AM to 8:00 PM"
-                ],
-                (object)[
-                    "day"=>"Wednesday",
-                    "hours"=>"7:00 AM to 8:00 PM"
-                ],
-                (object)[
-                    "day"=>"Thursday",
-                    "hours"=>"7:00 AM to 8:00 PM"
-                ],
-                (object)[
-                    "day"=>"Friday",
-                    "hours"=>"7:00 AM to 8:00 PM"
-                ],
-                (object)[
-                    "day"=>"Saturday",
-                    "hours"=>"9:00 AM to 5:00 PM"
-                ],
-            ]
+                    "Sunday"=>"Closed",
+                    "Monday"=>"7:00 AM to 8:00 PM",
+                    "Tuesday"=>"7:00 AM to 8:00 PM",
+                    "Wednesday"=>"7:00 AM to 8:00 PM",
+                    "Thursday"=>"7:00 AM to 8:00 PM",
+                    "Friday"=>"7:00 AM to 8:00 PM",
+                    "Saturday"=>"9:00 AM to 5:00 PM"
+                ]
+            
         ];
 
 

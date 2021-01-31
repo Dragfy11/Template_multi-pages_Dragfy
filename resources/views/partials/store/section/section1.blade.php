@@ -8,11 +8,10 @@
             <span class="section-heading-lower">{{$store[0]->subtitre}}</span>
             </h2>
             <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-              @foreach ($store[1] as $jour)
-                <li class="list-unstyled-item list-hours-item d-flex
-                {{date('1')==$jour->day ?'today': ""}}">
-                {{$jour->day}}
-                <span class="ml-auto">{{$jour->hours}}</span>
+              @foreach ($store[1] as $day=>$hours)
+                <li class="list-unstyled-item list-hours-item d-flex">
+                {{$day}}
+                <span class="ml-auto">{{$hours}}</span>
               @endforeach
             </ul>
             <p class="address mb-5">
