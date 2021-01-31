@@ -10,7 +10,7 @@
                 <span class="section-heading-lower">{{$about[0]->subtitre}}</span>
               </h2>
               <p>{{$about[0]->text1}}</p>
-              <p class="mb-0">{{$about[0]->text2}}<em>{{$about[0]->text3}}</em> {{$about[0]->text4}}</p>
+              <p class="mb-0">{{$about[0]->text2}}<em>{{$about[0]->text3}}</em>{{$about[0]->text4}}</p>
             </div>
           </div>
         </div>
