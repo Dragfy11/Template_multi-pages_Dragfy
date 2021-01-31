@@ -4,15 +4,15 @@
         <div class="product-item-title d-flex">
           <div class="bg-faded p-5 d-flex ml-auto rounded">
             <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">From Around the World</span>
-              <span class="section-heading-lower">Bulk Speciality Blends</span>
+              <span class="section-heading-upper">{{$products[2]->titre}}</span>
+              <span class="section-heading-lower">{{$products[2]->subtitre1}}</span>
             </h2>
           </div>
         </div>
         <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{{asset('img/products-03.jpg')}}" alt="">
         <div class="product-item-description d-flex mr-auto">
           <div class="bg-faded p-5 rounded">
-            <p class="mb-0">Travelling the world for the very best quality coffee is something take pride in. When you visit us, you'll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.</p>
+            <p class="mb-0">{{$products[2]->text}}</p>
           </div>
         </div>
       </div>
