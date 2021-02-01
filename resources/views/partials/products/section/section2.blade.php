@@ -9,7 +9,7 @@
             </h2>
           </div>
         </div>
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{{asset('img/products-02.jpg')}}" alt="">
+        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{{$products[1]->image}}" alt="">
         <div class="product-item-description d-flex ml-auto">
           <div class="bg-faded p-5 rounded">
             <p class="mb-0">{{$products[1]->text}}</p>

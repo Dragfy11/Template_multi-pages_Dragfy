@@ -15,7 +15,8 @@ class Home extends Controller
                 'btn'=>'Visit Us Today!',
                 'titre2'=>'Our Promise',
                 'subtitre2'=>'To You',
-                'text2'=>'When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!'
+                'text2'=>'When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!',
+                'image'=> 'img/intro.jpg'
                 ]
         ];
         return view('home', compact('home'));
